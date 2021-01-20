@@ -1,0 +1,110 @@
+.Navbar{
+    background-color: rgb(51, 51, 85);
+    color: white;
+}
+.NavBarItems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-left: 45%;
+}
+.container-fluid{
+    background-image: url(../Image/stadium.jpg);
+        /* Full height */
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;          
+}
+.logo{
+    width: 20%;
+}
+
+
+
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+  }
+  
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+
+  .Footer {
+    background-color: rgb(51, 51, 85);
+    color: white;
+   
+  }
+
+  .Social {
+  padding-bottom: 1vw;
+    padding-top: 5vh;
+    margin-left: 3vw;
+    font-size: 3vw;
+    width: 4%;
+    color: blue;
+  }
+
+  .SocialInsta{ padding-bottom: 1vw;
+    padding-top: 5vh;
+    margin-left: 3vw;
+    font-size: 3vw;
+    width: 4%;
+    color: pink;
+  }
+
+  .SocialTwi{
+    padding-bottom: 1vw;
+    padding-top: 5vh;
+    margin-left: 3vw;
+    font-size: 3vw;
+    width: 4%;
+    color: rgb(129, 129, 248);
+  
+  }
+  .social:hover {
+    cursor: pointer;
+  }
