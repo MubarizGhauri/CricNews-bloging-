@@ -11,7 +11,7 @@ import About from './Components/About';
 import PostSlider from './Components/postSlider';
 import Create from './Components/Create';
 import News from './Components/News';
-
+import Live from './Components/Live';
 //import "font-awesome/css/font-awesome.css";
 
 class App extends Component {
@@ -25,6 +25,7 @@ class App extends Component {
       <Route path='/about' component={About}/>
       <Route path='/create' component={Create}/>
       <Route path='/blogs' component={News}/>
+      <Route path='/live' component={Live}/>
      </Switch>
      
    
